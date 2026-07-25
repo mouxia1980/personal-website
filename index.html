@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阿木 - 印刷销售主管 | 个人主页</title>
+  <meta name="description" content="阿木的个人主页，专注印刷行业销售与客户服务。联系邮箱：mouxia1980@outlook.com">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0a0a0f; color: #e5e7eb; }
+    
+    /* Navigation */
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50; border-bottom: 1px solid rgba(255,255,255,0.1); background: rgba(10,10,15,0.8); backdrop-filter: blur(12px); }
+    .nav-inner { max-width: 896px; margin: 0 auto; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 1.125rem; font-weight: 700; letter-spacing: -0.025em; color: white; }
+    .logo span { color: #22d3ee; }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a { font-size: 0.875rem; color: #9ca3af; text-decoration: none; transition: color 0.2s; }
+    .nav-links a:hover { color: #22d3ee; }
+    
+    /* Hero */
+    .hero { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(34,211,238,0.1) 0%, transparent 50%); }
+    .hero-content { position: relative; text-align: center; padding: 0 1.5rem; }
+    .hero h1 { font-size: clamp(2rem, 5vw, 4.5rem); font-weight: 800; letter-spacing: -0.025em; line-height: 1.1; margin-bottom: 1.5rem; background: linear-gradient(to right, #22d3ee, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero p { font-size: 1.25rem; color: #9ca3af; margin-bottom: 2rem; }
+    .cta-btn { display: inline-block; padding: 0.75rem 2rem; background: linear-gradient(to right, #22d3ee, #a855f7); color: white; text-decoration: none; border-radius: 9999px; font-weight: 600; transition: opacity 0.2s; }
+    .cta-btn:hover { opacity: 0.9; }
+    
+    /* Sections */
+    section { max-width: 896px; margin: 0 auto; padding: 5rem 1.5rem; }
+    section h2 { font-size: 2rem; font-weight: 700; color: white; margin-bottom: 2rem; letter-spacing: -0.025em; }
+    
+    /* About */
+    .about-text { font-size: 1.125rem; line-height: 1.8; color: #d1d5db; }
+    .contact-info { margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 2rem; }
+    .contact-item { display: flex; align-items: center; gap: 0.5rem; color: #9ca3af; font-size: 1rem; }
+    .contact-item a { color: #22d3ee; text-decoration: none; }
+    .contact-item a:hover { text-decoration: underline; }
+    
+    /* Projects */
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .project-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1.5rem; transition: border-color 0.2s; }
+    .project-card:hover { border-color: rgba(34,211,238,0.3); }
+    .project-card h3 { color: white; font-size: 1.125rem; margin-bottom: 0.75rem; }
+    .project-card p { color: #9ca3af; font-size: 0.875rem; line-height: 1.6; }
+    
+    /* Footer */
+    footer { text-align: center; padding: 3rem 1.5rem; border-top: 1px solid rgba(255,255,255,0.08); color: #6b7280; font-size: 0.875rem; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="logo"><span>&lt;</span>阿木<span>/&gt;</span></div>
+    <div class="nav-links">
+      <a href="#about">关于</a>
+      <a href="#projects">项目</a>
+      <a href="#contact">联系</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-content">
+    <h1>你好，我是阿木</h1>
+    <p>专注印刷行业销售与客户服务 | 用专业创造价值</p>
+    <a href="#contact" class="cta-btn">联系我</a>
+  </div>
+</div>
+
+<section id="about">
+  <h2>关于我</h2>
+  <div class="about-text">
+    <p>大家好，我是阿木，一名经验丰富的印刷销售主管。在印刷行业深耕多年，熟悉从印前设计、印刷工艺到印后加工的全流程服务。</p>
+    <br>
+    <p>我的专业领域涵盖：商务印刷、包装印刷、数码快印、不干胶标签等。擅长客户需求分析、方案报价、项目跟进，致力于为客户提供性价比最优的印刷解决方案。</p>
+  </div>
+  <div class="contact-info" id="contact">
+    <div class="contact-item">📧 <a href="mailto:mouxia1980@outlook.com">mouxia1980@outlook.com</a></div>
+    <div class="contact-item">📱 13555985453</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>服务领域</h2>
+  <div class="projects-grid">
+    <div class="project-card"><h3>📦 包装印刷</h3><p>礼盒、手提袋、产品包装等，从设计到成品一站式服务。</p></div>
+    <div class="project-card"><h3>📄 商务印刷</h3><p>画册、宣传册、名片、宣传单页，品质稳定交期快。</p></div>
+    <div class="project-card"><h3>🖨️ 数码快印</h3><p>小批量急单、个性化定制、可变数据印刷，灵活高效。</p></div>
+    <div class="project-card"><h3>🏷️ 标签贴纸</h3><p>不干胶标签、防伪标签、产品铭牌，材质多样可选。</p></div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 阿木 - 印刷销售主管. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
