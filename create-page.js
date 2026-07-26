@@ -1,4 +1,7 @@
-"use client";
+﻿const fs = require("fs");
+
+// page.tsx (full homepage with all sections)
+const pageContent = `"use client";
 
 import { useState } from "react";
 
@@ -25,10 +28,12 @@ function HeroSection() {
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-cyan-500/10 via-transparent to-transparent" />
       <div className="pointer-events-none absolute left-1/2 top-1/4 h-[400px] w-[400px] -translate-x-1/2 rounded-full bg-cyan-500/10 blur-[120px]" />
       <div className="relative z-10 px-6 text-center">
+        <p className="mb-4 font-mono text-sm text-cyan-400/80">const intro = `</p>
         <h1 className="mb-6 text-4xl font-extrabold tracking-tight sm:text-5xl md:text-7xl">
           <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">你好，我是阿木</span>
         </h1>
         <p className="mb-8 max-w-xl text-lg text-gray-400 sm:text-xl">印刷行业销售主管 · 一站式印刷解决方案</p>
+        <div className="font-mono text-sm text-cyan-400/80">`;</div>
         <div className="mt-10 flex items-center justify-center gap-4">
           <a href="#关于" className="inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-6 py-3 text-sm font-medium text-cyan-400 transition hover:bg-cyan-500/20">向下探索</a>
           <a href="#联系" className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/[0.03] px-6 py-3 text-sm font-medium text-gray-300 transition hover:bg-white/[0.06]">立即咨询</a>
@@ -144,3 +149,7 @@ export default function Home() {
     </main>
   );
 }
+`;
+
+fs.writeFileSync("src/app/page.tsx", pageContent, "utf8");
+console.log("page.tsx written");
