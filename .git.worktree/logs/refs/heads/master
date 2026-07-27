@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 68d438dd2fee6cd56a040baac1ac847140958a0a mouxia1980 <mouxia1980@outlook.com> 1784985436 +0800	commit (initial): Initial commit: personal website for printing sales supervisor
+68d438dd2fee6cd56a040baac1ac847140958a0a a8dd0ad622145160ddf420ebe8985508d1cd6bb6 mouxia1980 <mouxia1980@outlook.com> 1785010552 +0800	commit: Add static HTML landing page and Next.js source files
+a8dd0ad622145160ddf420ebe8985508d1cd6bb6 f4d0c1c975df33f97551c5313c738d2f8a8353d8 mouxia1980 <mouxia1980@outlook.com> 1785010649 +0800	merge origin/master: Merge made by the 'ort' strategy.
+f4d0c1c975df33f97551c5313c738d2f8a8353d8 de30e4ee23351d7fe3202ccf30be353896c1dbd2 mouxia1980 <mouxia1980@outlook.com> 1785019909 +0800	commit: Add GitHub Pages deployment workflow
+de30e4ee23351d7fe3202ccf30be353896c1dbd2 e81c7663cbbb4c09103e0d603567348b924aa9cf mouxia1980 <mouxia1980@outlook.com> 1785055874 +0800	merge gh-pages: Merge made by the 'ort' strategy.
+e81c7663cbbb4c09103e0d603567348b924aa9cf 862417ab138e6c204aa256b970629d8e64cc3fdb mouxia1980 <mouxia1980@outlook.com> 1785055881 +0800	commit: Update SEO page (no workflow)
+862417ab138e6c204aa256b970629d8e64cc3fdb 07d1d893483d2b8b8d2f4367a84367ca6613ff77 mouxia1980 <mouxia1980@outlook.com> 1785056176 +0800	commit: Update: Add factory address, MOQ 500pcs, QQ 99589725, JSON-LD LocalBusiness

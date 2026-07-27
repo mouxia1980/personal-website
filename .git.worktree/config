@@ -1,0 +1,18 @@
+[core]  
+repositoryformatversion = 0 
+[user]
+	email = mouxia1980@outlook.com
+	name = mouxia1980
+[remote "origin"]
+	url = https://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@github.com/mouxia1980/personal-website.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[http]
+	proxy = http://127.0.0.1:7897
+	sslVerify = false
+	version = HTTP/1.1
+	sslBackend = openssl
+[https]
+	proxy = http://127.0.0.1:7897
+[remote "mouxia"]
+	url = https://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@github.com/mouxia1980.git
+	fetch = +refs/heads/*:refs/remotes/mouxia/*

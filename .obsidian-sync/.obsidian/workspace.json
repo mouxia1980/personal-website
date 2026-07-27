@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "986040d680282370",
+    "type": "split",
+    "children": [
+      {
+        "id": "fea50fee7ac162c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8dbd409be7147746",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "github token/Github token.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Github token"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "06a440ef3058ed5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "da553d66bf9374c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a56544ff3df1994c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "77e35ab9e28a4f3b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#obsidian插入网页链接（外部链接）",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "250baab6ebf56fbe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 544.5050315856934
+  },
+  "right": {
+    "id": "66386425bc1c8076",
+    "type": "split",
+    "children": [
+      {
+        "id": "584f3882bdfef7c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aad71777cc4910d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "github token/Github token.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Github token 的反向链接列表"
+            }
+          },
+          {
+            "id": "2bd463051bbaf307",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "未命名.base",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "未命名 的出链列表"
+            }
+          },
+          {
+            "id": "42c8bf1565c7ce4d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "6b438ef7639b6dca",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a53da5a6e4bfe4d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "8dbd409be7147746",
+  "lastOpenFiles": [
+    "codex/Codex 解锁无限 Token！Codex 接入任意 AI API 和本地模型｜OpenCodex 保姆级教程.md",
+    "网站管理/dlhaida.com/AI SEO改造尝试-踩坑日志.md",
+    "网站管理/dlhaida.com/Smarty模板编码踩坑与正确操作指南.md",
+    "ai 知识库/浏览器自动化设置与实测.md",
+    "ai 知识库/踩坑日志-SOUL.md无限循环与LLM Wiki配置修复.md",
+    "ai 知识库/speech-to-speech 项目文档.md",
+    "ai 知识库/Hermes-上下文压缩提前触发排查指南.md",
+    "github token/Github token.md",
+    "网站管理/dlhaida.com/模板原始代码备份.md",
+    "attachment/Pasted image 20260724232653.png",
+    "attachment/Pasted image 20260724232533.png",
+    "attachment/Pasted image 20260724232506.png",
+    "Clippings/人机对话，断网也能聊！本地部署实时AI语音对话，你的电脑就是私人语音助手! 完全免费开源！ – 零度博客.md",
+    "未命名.base",
+    "obsidian 基础操作/obsidian 插入 图片附件.md",
+    "Clippings/PanniantongAgent-Reach Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.md",
+    "Clippings/查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥） – 零度博客.md",
+    "网站管理/dlhaida.com/模板原始代码备份 1.md",
+    "网站管理/dlhaida.com/前台原始HTML备份 1.md",
+    "Books/上头 Obsidian/04 搭建知识库·GAP 三层笔记法.md",
+    "codex",
+    "网站管理/dlhaida.com/后台登录手册.md",
+    "网站管理/dlhaida.com/模板原始代码修复备份.md",
+    "网站管理/dlhaida.com/前台原始HTML备份.md",
+    "网站管理/dlhaida.com/模板原始代码备份 2.md",
+    "网站管理/dlhaida.com/乱码解码器.py",
+    "网站管理/dlhaida.com",
+    "网站管理",
+    "attachment/Pasted image 20260712094359.png",
+    "attachment/a2f592d7c17c5b87ec82199955c6aa70 2.png",
+    "attachment/beeeb7c05f11e052bb6f1afaf798785a.png",
+    "attachment/Pasted image 20260523202029.png",
+    "attachment/Pasted image 20260712094327.png",
+    "Clippings/‬​‬​‬﻿⁠⁠​‬​​‍‌​​​​​‌⁠⁠​​‍​‬‌﻿​‍⁠​‌‬​​​‌‍​‬​⁠﻿​​Hermes 对接 Hindsight 操作手册（Docker 版） - 飞书云文档.md",
+    "Clippings/Hermes Agent 记忆架构详解：四层记忆系统如何持久化？.md",
+    "Clippings/模型库.md",
+    "obsidian 基础操作/obsidian 对笔记进行分段.md",
+    "github token",
+    "Clippings/【赛博门外憨】在线课程表（68月充电可学习所有课程；30月充电可学习30及免费课程；免费档课程永久可学习）  - 飞书云文档.md",
+    "attachment/6ce0b11d-c34e-4b5f-9d18-ef8cf499058d.png",
+    "attachment/a2f592d7c17c5b87ec82199955c6aa70 1.png",
+    "未命名.canvas",
+    "未命名 1.base",
+    "未命名 3.base",
+    "未命名 2.base",
+    "ai 知识库/Qing数据库/项目决策"
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "115afbadca474e47",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cd0c7cc2437c1e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "162ce9dd5251ccf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Skill-personal-website-deploy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Skill-personal-website-deploy"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6706dff0f7d7b37a",
+    "type": "split",
+    "children": [
+      {
+        "id": "57b39704dbf011ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1bc91471f438880",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "841171aaaea00b60",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "3c8426ca8860bb8b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1cd0b8fd3ad2bd86",
+    "type": "split",
+    "children": [
+      {
+        "id": "53e2c2d35c20567a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80357ff78ac2298a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "网站图片/药品包装盒2（药盒）.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "药品包装盒2（药盒） 的反向链接列表"
+            }
+          },
+          {
+            "id": "7fe8287b5143f442",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "网站图片/药品包装盒2（药盒）.jpg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "药品包装盒2（药盒） 的出链列表"
+            }
+          },
+          {
+            "id": "5e435ee2573115c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "77f0d2b6e1863ea4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "8cfead71d921aaa0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "网站图片/药品包装盒2（药盒）.jpg",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "药品包装盒2（药盒） 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "162ce9dd5251ccf5",
+  "lastOpenFiles": [
+    "deploy_full.ps1",
+    "payload.json",
+    "img_add.ps1",
+    "add_all_imgs.ps1",
+    "deploy_final2.ps1",
+    "deploy_final.ps1",
+    "deploy_A.ps1",
+    "deploy_explicit.ps1",
+    "deploy_v2.ps1",
+    "deploy_script.ps1",
+    "public/images/test.txt",
+    "skills/sandbox-bypass/SKILL.md",
+    "skills/personal-website-deploy/SKILL.md",
+    "Skill-sandbox-bypass.md",
+    "Skill-personal-website-deploy.md",
+    "Codex经验-Cloudflare优化.md",
+    "网站图片/药盒1.jpg",
+    "网站图片/手提袋.jpg",
+    "网站图片/口罩包装盒.jpg",
+    "网站图片/罗兰6色包装印刷机.jpg",
+    "网站图片/食品包装礼品盒.jpg",
+    "网站图片/药品包装盒2（药盒）.jpg",
+    "网站图片/药品包装盒（药盒）1.jpg",
+    "网站图片/食品包装纸盒.jpg",
+    "网站图片/康齿灵牙膏包装盒.jpg",
+    "Skill-personal-website-deploy-v2.md",
+    "node_modules/fraction.js/CHANGELOG.md",
+    "网站图片/Factory Photo_1.jpg"
+  ]
+}
