@@ -1,3 +1,4 @@
+﻿import Image from 'next/image';
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0a0a0f] text-gray-200">
@@ -13,8 +14,8 @@ export default function Home() {
       </nav>
 
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <img src="/images/high-speed-offset-printing-machine.jpg" className="absolute inset-0 w-full h-full object-cover opacity-20" alt="Offset printing machinery production line" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0f]/70 via-transparent to-transparent pointer-events-none"></div>
+        <Image src="/images/high-speed-offset-printing-machine.jpg" fill alt="Offset printing machinery production line" className="object-cover opacity-20" priority />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0f]/70 via-transparent to-transparent pointer-events-none" />
         <div className="relative z-10 px-6 text-center">
           <h1 className="mb-6 text-4xl font-extrabold tracking-tight sm:text-5xl md:text-7xl bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">阿木 - 印刷包装专家</h1>
           <p className="mb-8 max-w-2xl mx-auto text-lg text-gray-300 sm:text-xl">专注纸制品包装设计 &middot; 高端礼盒定制 &middot; 药食级环保包装</p>
@@ -38,9 +39,9 @@ export default function Home() {
           <div className="grid gap-10 md:grid-cols-3">
             <div className="rounded-xl border border-white/10 bg-[#0e0e15] overflow-hidden hover:border-cyan-500/30 transition">
               <div className="grid grid-cols-3 h-48 gap-1">
-                <img src="/images/luxury-gift-food-packaging.jpg" className="w-full h-full object-cover" alt="Luxury gift packaging" />
-                <img src="/images/luxury-seafood-packaging-box.jpg" className="w-full h-full object-cover" alt="Seafood packaging" />
-                <img src="/images/corrugated-food-paper-carton.jpg" className="w-full h-full object-cover" alt="Food carton" />
+                <Image src="/images/luxury-gift-food-packaging.jpg" width={200} height={200} alt="Luxury gift packaging" className="object-cover" />
+                <Image src="/images/luxury-seafood-packaging-box.jpg" width={200} height={200} alt="Seafood packaging" className="object-cover" />
+                <Image src="/images/corrugated-food-paper-carton.jpg" width={200} height={200} alt="Food carton" className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-lg font-semibold text-gray-200">高端礼品与食品包装</h3>
@@ -49,9 +50,9 @@ export default function Home() {
             </div>
             <div className="rounded-xl border border-white/10 bg-[#0e0e15] overflow-hidden hover:border-cyan-500/30 transition">
               <div className="grid grid-cols-3 h-48 gap-1">
-                <img src="/images/paperboard-pharmaceutical-box.jpg" className="w-full h-full object-cover" alt="Pharma box" />
-                <img src="/images/medical-medicine-box-design.jpg" className="w-full h-full object-cover" alt="Medicine design" />
-                <img src="/images/pharmaceutical-blister-packaging.jpg" className="w-full h-full object-cover" alt="Blister pack" />
+                <Image src="/images/paperboard-pharmaceutical-box.jpg" width={200} height={200} alt="Pharma box" className="object-cover" />
+                <Image src="/images/medical-medicine-box-design.jpg" width={200} height={200} alt="Medicine design" className="object-cover" />
+                <Image src="/images/pharmaceutical-blister-packaging.jpg" width={200} height={200} alt="Blister pack" className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-lg font-semibold text-gray-200">药食级医疗包装</h3>
@@ -60,9 +61,9 @@ export default function Home() {
             </div>
             <div className="rounded-xl border border-white/10 bg-[#0e0e15] overflow-hidden hover:border-cyan-500/30 transition">
               <div className="grid grid-cols-3 h-48 gap-1">
-                <img src="/images/design-paper-shopping-bags.jpg" className="w-full h-full object-cover" alt="Shopping bag" />
-                <img src="/images/paper-bag-packaging-solution.jpg" className="w-full h-full object-cover" alt="Paper bag" />
-                <img src="/images/cosmetic-drug-blister-package.jpg" className="w-full h-full object-cover" alt="Cosmetic pack" />
+                <Image src="/images/design-paper-shopping-bags.jpg" width={200} height={200} alt="Shopping bag" className="object-cover" />
+                <Image src="/images/paper-bag-packaging-solution.jpg" width={200} height={200} alt="Paper bag" className="object-cover" />
+                <Image src="/images/cosmetic-drug-blister-package.jpg" width={200} height={200} alt="Cosmetic pack" className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="mb-2 text-lg font-semibold text-gray-200">品牌视觉与手提袋设计</h3>
@@ -86,4 +87,4 @@ export default function Home() {
       </section>
     </main>
   );
-}<!-- deployed 2026-07-27T22:28:57.2245765+08:00 -->
+}
