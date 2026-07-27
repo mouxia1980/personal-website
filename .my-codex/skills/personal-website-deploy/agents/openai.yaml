@@ -1,0 +1,6 @@
+﻿interface:
+  display_name: "Personal Website Deploy"
+  short_description: "Deploy website via Github, Vercel and Cloudflare with full SEO config"
+  default_prompt: "Use $personal-website-deploy to deploy a personal brand website end-to-end."
+  icon_small: "./assets/pw-deploy.svg"
+  icon_large: "./assets/pw-deploy-large.png"

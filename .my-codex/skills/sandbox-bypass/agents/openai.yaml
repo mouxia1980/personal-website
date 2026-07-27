@@ -1,0 +1,6 @@
+﻿interface:
+  display_name: "Sandbox Bypass"
+  short_description: "Write outside Codex sandbox using whitelist + elevation"
+  default_prompt: "Use $sandbox-bypass to write files outside the workspace, like syncing to Obsidian or OneDrive."
+  icon_small: "./assets/sandbox-bypass.svg"
+  icon_large: "./assets/sandbox-bypass-large.png"
